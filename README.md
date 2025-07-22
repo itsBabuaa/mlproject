@@ -15,6 +15,14 @@ This project uses machine learning algorithms to predict student exam scores bas
 - **Prediction**: Real-time prediction of student scores based on input parameters
 - **Model Evaluation**: Detailed performance metrics and model comparison
 
+  ## 🎥 Screen Recording
+
+- [📺 Source Code](https://youtu.be/t6n1FQjT8XI)
+ 
+- [📺 Live Demo](https://youtu.be/4VRyHRPEd_M)
+
+---
+
 ## 📊 Dataset
 
 The project uses student performance data with the following features:
