@@ -2,19 +2,6 @@
 
 A machine learning project that analyzes and predicts student academic performance based on various socio-economic and educational factors.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 🎯 Overview
 
 This project uses machine learning algorithms to predict student exam scores based on various demographic, socio-economic, and educational factors. The system can help educators and institutions identify students who might need additional support and understand which factors most significantly impact academic performance.
@@ -47,7 +34,7 @@ The project uses student performance data with the following features:
 ## 🚀 Installation
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.8 or higher
 - pip package manager
 
 ### Setup
@@ -71,65 +58,8 @@ The project uses student performance data with the following features:
 
 4. **Run the application**
    ```bash
-   python app.py
+   python application.py
    ```
-
-## 💻 Usage
-
-### Training the Model
-
-```python
-from src.components.data_ingestion import DataIngestion
-from src.components.data_transformation import DataTransformation
-from src.components.model_trainer import ModelTrainer
-
-# Data ingestion
-data_ingestion = DataIngestion()
-train_data, test_data = data_ingestion.initiate_data_ingestion()
-
-# Data transformation
-data_transformation = DataTransformation()
-train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data, test_data)
-
-# Model training
-model_trainer = ModelTrainer()
-r2_score = model_trainer.initiate_model_trainer(train_arr, test_arr)
-```
-
-### Making Predictions
-
-```python
-from src.pipeline.predict_pipeline import PredictPipeline
-
-# Create prediction pipeline
-predict_pipeline = PredictPipeline()
-
-# Input data
-input_data = {
-    'gender': 'female',
-    'race_ethnicity': 'group B',
-    'parental_level_of_education': "bachelor's degree",
-    'lunch': 'standard',
-    'test_preparation_course': 'completed',
-    'reading_score': 85,
-    'writing_score': 80
-}
-
-# Get prediction
-predicted_score = predict_pipeline.predict(input_data)
-print(f"Predicted Math Score: {predicted_score}")
-```
-
-### Web Interface
-
-1. Start the Flask application:
-   ```bash
-   python app.py
-   ```
-
-2. Open your browser and navigate to `http://localhost:5000`
-
-3. Fill in the student information form and get instant predictions
 
 ## 📈 Model Performance
 
@@ -162,7 +92,7 @@ student-preformance/
 │   └── utils.py              # Utility functions
 ├── static/                   # CSS, JS, and image files
 ├── templates/               # HTML templates
-├── app.py                  # Flask web application
+├── application.py                  # Flask web application
 ├── requirements.txt        # Project dependencies
 └── README.md              # Project documentation
 ```
@@ -185,25 +115,7 @@ student-preformance/
 - **Lunch type** (indicator of socio-economic status) impacts performance
 - **Gender disparities** exist across different subjects
 - **Reading and writing scores** are strong predictors of math performance
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**itsBabuaa**
-- GitHub: [@itsBabuaa](https://github.com/itsBabuaa)
+  
 
 ## 🙏 Acknowledgments
 
@@ -214,10 +126,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ If you found this project helpful, please consider giving it a star!
-
-## 📞 Support
-
-If you have any questions or run into issues, please:
-1. Check the [Issues](https://github.com/itsBabuaa/student-preformance/issues) page
-2. Create a new issue if your problem isn't already listed
-3. Provide detailed information about your environment and the issue
