@@ -2,9 +2,13 @@
 
 A machine learning project that analyzes and predicts student academic performance based on various socio-economic and educational factors.
 
+---
+
 ## 🎯 Overview
 
 This project uses machine learning algorithms to predict student exam scores based on various demographic, socio-economic, and educational factors. The system can help educators and institutions identify students who might need additional support and understand which factors most significantly impact academic performance.
+
+---
 
 ## ✨ Features
 
@@ -14,6 +18,8 @@ This project uses machine learning algorithms to predict student exam scores bas
 - **Visualization**: Interactive charts and graphs showing performance insights
 - **Prediction**: Real-time prediction of student scores based on input parameters
 - **Model Evaluation**: Detailed performance metrics and model comparison
+
+---
 
   ## 🎥 Screen Recording
 
@@ -38,6 +44,8 @@ The project uses student performance data with the following features:
 
 ### Target Variable:
 - **Math Score**: Student's mathematics exam score (0-100)
+
+---
 
 ## 🚀 Installation
 
@@ -69,6 +77,8 @@ The project uses student performance data with the following features:
    python application.py
    ```
 
+---
+
 ## 📈 Model Performance
 
 | Model | R² Score | RMSE | MAE |
@@ -79,6 +89,8 @@ The project uses student performance data with the following features:
 | Support Vector Regression | 0.84 | 6.5 | 5.1 |
 
 *Best performing model: **Random Forest** with R² score of 0.88*
+
+---
 
 ## 📁 Project Structure
 
@@ -105,6 +117,8 @@ student-preformance/
 └── README.md              # Project documentation
 ```
 
+---
+
 ## 🛠️ Technologies Used
 
 - **Python 3.8+**: Core programming language
@@ -116,6 +130,8 @@ student-preformance/
 - **HTML/CSS**: Frontend interface
 - **Jupyter Notebook**: Data exploration and prototyping
 
+---
+
 ## 🔍 Key Insights
 
 - **Parental education level** has the strongest correlation with student performance
@@ -124,6 +140,7 @@ student-preformance/
 - **Gender disparities** exist across different subjects
 - **Reading and writing scores** are strong predictors of math performance
   
+---
 
 ## 🙏 Acknowledgments
 
