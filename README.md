@@ -1,5 +1,4 @@
 # Student Performance Predictor
----
 
 ## 🎯 Overview
 
