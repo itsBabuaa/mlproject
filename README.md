@@ -1,7 +1,4 @@
 # Student Performance Predictor
-
-A machine learning project that analyzes and predicts student academic performance based on various socio-economic and educational factors.
-
 ---
 
 ## 🎯 Overview
